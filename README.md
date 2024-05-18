@@ -52,7 +52,7 @@ Proje fakeData.js içindeki menuData ile çalışmaktadır. Server'a Api erişim
 ```sh
 git clone https://github.com/Umut-Sunar/Teknolojik-Yemekler_2.git
 
-```sh
+
 npm install
 npm run dev
 
