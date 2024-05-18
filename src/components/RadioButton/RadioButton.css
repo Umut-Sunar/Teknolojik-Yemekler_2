@@ -1,0 +1,30 @@
+.RadioButton-Component {
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+          
+            
+            input {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              border: transparent;
+              background-color: var(--Bej);
+              cursor: pointer; 
+              outline: none; 
+            }
+            
+            input:checked {
+              background-color: var(--Sarı);
+            }
+            
+            label {
+              position: absolute;
+              top: 50%; 
+              transform: translateY(-50%);
+            }
+            
+         
+}

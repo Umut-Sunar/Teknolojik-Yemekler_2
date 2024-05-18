@@ -1,0 +1,39 @@
+.SuccessMainWrapper{
+
+background-color:#CE2829;
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+color: white;
+}
+
+.SuccessHeader{
+
+font-size: 36px;
+margin: 100px;
+display: flex;
+flex-direction: column;
+gap:5px;
+justify-content: center;
+align-items: center;
+margin:50px 0 0 0 ;
+
+}
+
+.SuccessTitleWrapper{
+
+margin: 100px;
+text-align: center;
+
+}
+.SuccessTitle{
+
+font-size: 72px;
+font-family: "Barlow", sans-serif;
+font-weight: 100;
+font-style: normal;
+margin: 0 0 0 0;
+
+}

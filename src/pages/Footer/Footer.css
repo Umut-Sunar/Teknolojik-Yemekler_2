@@ -1,0 +1,61 @@
+
+
+.Footer{
+
+background-color: var(--KoyuGri);
+color: white;
+width: 100vw;
+display: flex;
+justify-content: center;
+padding-top: 50px;
+padding-bottom: 100px;
+
+a {
+
+cursor: pointer;
+text-decoration: none;
+color: white;
+}
+
+}
+.Footer-container{
+width: 1440px;
+              display: flex;
+              justify-content: space-between;
+
+
+
+}
+.Footer-Left-Items{
+display: flex;
+gap:50px
+
+}
+.Footer-Menu-List {
+
+text-decoration: none;
+list-style-type: none;
+
+}
+.Instagram-Image-List{
+              text-decoration: none;
+              list-style-type: none;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              flex-wrap: wrap;
+              gap: 10px;
+              width: 330px;
+
+  
+
+
+}
+.Footer-Instagram-Images{
+
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}

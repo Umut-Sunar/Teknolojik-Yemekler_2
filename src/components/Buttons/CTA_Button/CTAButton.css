@@ -1,0 +1,20 @@
+
+
+.CTABtn{
+
+width: 100px;
+height: 30px;
+background-color: white;
+color: var(--Kırmızı);
+border-radius: 20px;
+border: transparent;
+font-size: 10px;
+cursor: pointer;
+
+
+}
+.CTABtn:hover{
+
+background-color:var(--Sarı);
+
+}

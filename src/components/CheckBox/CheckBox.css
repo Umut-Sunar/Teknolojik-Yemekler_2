@@ -1,0 +1,55 @@
+.Form-CheckBox-EachOne{
+
+width: 30%;
+font-size: 16px;
+font-weight: 500;
+
+
+}
+.Form-CheckBox-EachOne {
+              display: flex;
+              align-items: center;
+            }
+            
+            input[type="checkbox"] {
+              opacity: 0;
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              z-index: 10;
+             
+            }
+            
+            .custom-checkbox {
+              width: 40px;
+              height: 40px;
+              background-color: var(--Bej);
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              display: inline-block;
+              position: relative;
+              cursor: pointer;
+            }
+            
+            input[type="checkbox"]:checked + .custom-checkbox {
+              background-color: var(--Sarı);
+              
+            }
+            
+            .custom-checkbox::after {
+              content: "";
+              position: absolute;
+              display: none;
+              left: 10px;
+              top: 10px;
+              width: 20px;
+              height: 20px;
+              border: solid gray;
+              border-width: 0 2px 2px 0;
+              transform: rotate(45deg);
+            }
+            
+            input[type="checkbox"]:checked + .custom-checkbox::after {
+              display: block;
+            }
+            

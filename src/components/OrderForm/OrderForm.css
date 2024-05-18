@@ -1,0 +1,39 @@
+.OrderBody {
+  width: 740px;
+
+
+}
+.Product-Informations{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 100vw;
+background-color: var(--Bej);
+
+}
+
+.Product-Stars-Price-Comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Quattrocento", serif;
+}
+.Product-Stars-Comment {
+  display: flex;
+  gap: 100px;
+}
+
+.Product-Stars-Price-Comment > .Product-Price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Product-Details{
+
+font-size: 16px;
+font-family: "Quattrocento", serif;
+letter-spacing: 2px;
+line-height:175% ;
+
+}

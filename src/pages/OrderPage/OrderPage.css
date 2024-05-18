@@ -1,0 +1,12 @@
+.Order-Main-Wrapper{
+
+              width: 920px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              margin: 10px,0,100px,0;
+              padding: 0;
+              
+              
+              }
