@@ -40,3 +40,20 @@ Sipariş oluşturulduktan sonra, başarıyla oluşturulan siparişin detayların
 ### Yapı ve Gelecekteki İterasyonlar
 
 Proje, gelecekteki geliştirmelere ve yeni özelliklerin eklenmesine uygun olacak şekilde yapılandırılmıştır. Yapı, iterasyona kolayca evrilebilecek esneklikte tasarlanmıştır.
+
+### FakeData 
+
+Proje fakeData.js içindeki menuData ile çalışmaktadır. Server'a Api erişimi ile belirtilen menuData formatında kendi datanızı baglayabilirsiniz. 
+
+## Proje Yükleme 
+
+1. İlk olarak, projeyi klonlayın:
+
+```sh
+git clone https://github.com/Umut-Sunar/Teknolojik-Yemekler_2.git
+
+```sh
+npm install
+npm run dev
+
+
